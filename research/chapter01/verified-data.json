@@ -1,0 +1,376 @@
+{
+  "meta": {
+    "accessDate": "2026-10-22",
+    "sourceInstitution": "Australian Bureau of Statistics (ABS)",
+    "verifiedBy": "chapter01-research-verifier (Task 2-a)",
+    "note": "All values exactly as published on fetched abs.gov.au pages; evidence quotes are verbatim."
+  },
+  "population": {
+    "releaseTitle": "National, state and territory population, March 2026",
+    "url": "https://www.abs.gov.au/statistics/people/population/national-state-and-territory-population/latest-release",
+    "referencePeriod": "March 2026 (quarter ended 31 March 2026)",
+    "releaseDate": "17/09/2026 11:30am AEST",
+    "accessDate": "2026-10-22",
+    "totalErp": {
+      "value": "27,921,150 people at 31 March 2026",
+      "evidenceQuote": "Australia's population was 27,921,150 people at 31 March 2026."
+    },
+    "quarterlyGrowth": {
+      "value": "130,887 people (0.5%)",
+      "evidenceQuote": "The quarterly growth was 130,887 people (0.5%)."
+    },
+    "annualGrowth": {
+      "value": "392,700 people (1.4%)",
+      "evidenceQuote": "The annual growth was 392,700 people (1.4%)."
+    },
+    "annualNaturalIncrease": {
+      "value": "100,600 (year ending 31 March 2026)",
+      "evidenceQuote": "Annual natural increase was 100,600 and net overseas migration was 292,100."
+    },
+    "annualNetOverseasMigration": {
+      "value": "292,100 (year ending 31 March 2026)",
+      "evidenceQuote": "Annual natural increase was 100,600 and net overseas migration was 292,100."
+    },
+    "quarterlyComponentsMar2026": {
+      "value": "natural increase 29,900 people; net overseas migration 101,000 people",
+      "evidenceQuote": "In the March 2026 quarter, natural increase: was 29,900 people ... In the March 2026 quarter, net overseas migration: was 101,000 people"
+    },
+    "birthsYearEndingMar2026": {
+      "value": "292,500 births, up 1,000 (0.3%) on previous year",
+      "evidenceQuote": "In the year ending 31 March 2026: there were 292,500 births ... births increased by 1,000 (0.3%) since the previous year"
+    },
+    "deathsYearEndingMar2026": {
+      "value": "191,900 deaths, up 5,800 (3.1%) on previous year",
+      "evidenceQuote": "In the year ending 31 March 2026: there were 191,900 deaths ... deaths increased by 5,800 (3.1%) since the previous year"
+    },
+    "migrationArrivalsYearEndingMar2026": {
+      "value": "557,500 arrivals, down 23,500 (4.0%)",
+      "evidenceQuote": "In the year ending 31 March 2026: there were 557,500 people immigrating to Australia ... arrivals decreased by 23,500 people (4.0%) since the previous year"
+    },
+    "migrationDeparturesYearEndingMar2026": {
+      "value": "265,400 departures, down 6,100 (2.2%)",
+      "evidenceQuote": "In the year ending 31 March 2026: there were 265,400 people emigrating from Australia ... departures decreased by 6,100 people (2.2%) since the previous year"
+    },
+    "statesAndTerritoriesAt31March2026": {
+      "unit": "Population ('000); change over previous year ('000); change (%)",
+      "values": {
+        "New South Wales": ["8670.1", "97.0", "1.1"],
+        "Victoria": ["7154.2", "109.5", "1.6"],
+        "Queensland": ["5739.5", "90.1", "1.6"],
+        "South Australia": ["1916.8", "18.4", "1.0"],
+        "Western Australia": ["3096.2", "64.2", "2.1"],
+        "Tasmania": ["580.7", "3.4", "0.6"],
+        "Northern Territory": ["268.9", "4.0", "1.5"],
+        "Australian Capital Territory": ["489.7", "6.2", "1.3"],
+        "Australia (incl. Other Territories)": ["27921.2", "392.7", "1.4"]
+      },
+      "evidenceQuote": "All states and territories had positive population growth over the year ending 31 March 2026. Western Australia had the fastest growth rate (2.1%). Tasmania had the slowest rate (0.6%)."
+    },
+    "revisionCaveat": {
+      "evidenceQuote": "All data after 30 June 2021 are subject to revision."
+    },
+    "mediaRelease": {
+      "title": "Australia's population grows 1.4% in March 2026",
+      "originalPublicationDate": "17 September 2026"
+    }
+  },
+  "births": {
+    "releaseTitle": "Births, Australia, 2024",
+    "url": "https://www.abs.gov.au/statistics/people/population/births-australia/latest-release",
+    "referencePeriod": "2024 (calendar year of registration)",
+    "releaseDate": "15/10/2025 11:30am AEDT",
+    "accessDate": "2026-10-22",
+    "birthsRegistered2024": {
+      "value": "292,318 (up 1.9% or 5,320 births from 2023's 286,998)",
+      "evidenceQuote": "There were 292,318 registered births in 2024, an increase of 1.9% (or 5,320 births) from 2023."
+    },
+    "totalFertilityRate2024": {
+      "value": "1.481 births per woman",
+      "evidenceQuote": "The total fertility rate was 1.481 births per woman ."
+    },
+    "tfrTrend": {
+      "value": "1.481 in 2024 vs 1.499 in 2023 and 1.795 in 2014; below replacement since 1976",
+      "evidenceQuote": "Australia's total fertility rate: was 1.481 babies per woman in 2024, lower than 2023 (1.499) and the rate 10 years ago (1.795 in 2014); has been below replacement since 1976."
+    },
+    "replacementLevel": {
+      "value": "around 2.1 babies per woman",
+      "evidenceQuote": "The total fertility rate required for replacement is considered to be around 2.1 babies per woman to replace herself and her partner in the absence of overseas migration."
+    },
+    "medianAgeOfParents": {
+      "value": "32.1 years (mothers), 33.9 years (fathers)",
+      "evidenceQuote": "Median age was 32.1 years for mothers and 33.9 years for fathers."
+    },
+    "sexRatioAndMarriage": {
+      "value": "105.8 male births per 100 female births; 60.8% of births to parents in a registered marriage",
+      "evidenceQuote": "51.4% were males, resulting in a sex ratio at birth of 105.8 male births per 100 female births ... 60.8% were to parents in a registered marriage."
+    },
+    "peakFertilityAgeGroup": {
+      "value": "Women aged 30 to 34 years, 106.0 babies per 1,000 women",
+      "evidenceQuote": "Women aged 30 to 34 years had the highest fertility rate at 106.0 babies per 1,000 women, higher than 105.2 babies in 2023."
+    }
+  },
+  "deaths": {
+    "releaseTitle": "Deaths, Australia, 2025",
+    "url": "https://www.abs.gov.au/statistics/people/population/deaths-australia/latest-release",
+    "referencePeriod": "2025 (calendar year of registration)",
+    "releaseDate": "02/10/2026 11:30am AEST",
+    "accessDate": "2026-10-22",
+    "deathsRegistered2025": {
+      "value": "188,421 (up 1,153 from 2024's 187,268)",
+      "evidenceQuote": "There were 188,421 deaths registered in 2025, an increase of 1,153 from 2024 (187,268)."
+    },
+    "standardisedDeathRate": {
+      "value": "4.955 (from 5.078 in 2024)",
+      "evidenceQuote": "The standardised death rate decreased to 4.955 deaths from 5.078 in 2024."
+    },
+    "infantDeaths": {
+      "value": "1,019 (up 62); infant mortality rate 3.40 per 1,000 live births",
+      "evidenceQuote": "Infant deaths increased by 62 deaths to 1,019."
+    },
+    "crudeDeathRate2025": {
+      "value": "6.823 per 1,000 estimated resident population (summary table)",
+      "evidenceQuote": "Crude death rate ... 6.823"
+    },
+    "lifeExpectancy": {
+      "releaseTitle": "Life expectancy, 2022 - 2024",
+      "url": "https://www.abs.gov.au/statistics/people/population/life-expectancy/latest-release",
+      "referencePeriod": "2022-2024",
+      "releaseDate": "11/11/2025 11:30am AEDT",
+      "accessDate": "2026-10-22",
+      "malesAtBirth": {
+        "value": "81.1 years",
+        "evidenceQuote": "Life expectancy at birth was 81.1 years for males and 85.1 years for females in 2022 – 2024, reflecting no change for either males or females from the previous year (2021 – 2023)."
+      },
+      "femalesAtBirth": {
+        "value": "85.1 years",
+        "evidenceQuote": "Life expectancy at birth was 81.1 years for males and 85.1 years for females in 2022 – 2024, reflecting no change for either males or females from the previous year (2021 – 2023)."
+      },
+      "highestLowestByState": {
+        "value": "Highest ACT (males 82.0, females 85.8); lowest NT (males 77.0, females 80.7)",
+        "evidenceQuote": "Life expectancy was highest in the Australian Capital Territory for both males (82.0 years) and females (85.8 years). ... Life expectancy was lowest in the Northern Territory for both males (77.0 years) and females (80.7 years)."
+      },
+      "trendCommentary": {
+        "value": "Unchanged from 2021-2023; 2020-2022 and 2021-2023 decreases were the first since the mid-1990s; +0.8 years (males) and +0.7 years (females) over the past decade; male-female gap 4.0 years",
+        "evidenceQuote": "Life expectancy was unchanged from 2021 – 2023, following decreases in that period and the previous period (2020 – 2022), which were the first decreases since the mid-1990s. ... Over the past decade, life expectancy increased by 0.8 years for males and 0.7 years for females. ... The difference in life expectancy between males and females is 4.0 years."
+      }
+    }
+  },
+  "indigenous": {
+    "erp": {
+      "releaseTitle": "Estimates of Aboriginal and Torres Strait Islander Australians, 30 June 2021",
+      "url": "https://www.abs.gov.au/statistics/people/aboriginal-and-torres-strait-islander-peoples/estimates-aboriginal-and-torres-strait-islander-australians/30-june-2021",
+      "referencePeriod": "30 June 2021",
+      "releaseDate": "31/08/2023 11:30am AEST",
+      "accessDate": "2026-10-22",
+      "erpAt30June2021": {
+        "value": "983,700 people (3.8% of the total Australian population)",
+        "evidenceQuote": "At 30 June 2021, there were 983,700 Aboriginal and Torres Strait Islander people, representing 3.8% of the total Australian population:"
+      },
+      "medianAge": {
+        "value": "24.0 years",
+        "evidenceQuote": "The median age was 24.0 years."
+      },
+      "under15": {
+        "value": "33.1%",
+        "evidenceQuote": "One-third (33.1%) were under 15 years of age."
+      },
+      "aged65Plus": {
+        "value": "5.4% (vs 17.2% of non-Indigenous population)",
+        "evidenceQuote": "People aged 65 years and over comprised 5.4% of the Aboriginal and Torres Strait Islander population compared with 17.2% of the non-Indigenous population."
+      },
+      "distribution": {
+        "value": "74.5% lived in NSW, Queensland and WA combined; NT highest proportion (30.8%), Victoria lowest (1.2%)",
+        "evidenceQuote": "Three-quarters (74.5%) lived in New South Wales, Queensland and Western Australia combined. ... The Northern Territory had the highest proportion of Aboriginal and Torres Strait Islander people relative to its total population size (30.8%), and Victoria had the lowest (1.2%)."
+      },
+      "identificationCategories": {
+        "value": "91.7% Aboriginal; 4.0% Torres Strait Islander; 4.3% both",
+        "evidenceQuote": "Among the 983,700 Aboriginal and/or Torres Strait Islander people in 2021: 91.7% identified as Aboriginal; 4.0% identified as Torres Strait Islander; 4.3% identified as both Aboriginal and Torres Strait Islander."
+      },
+      "contextualWording": {
+        "evidenceQuote": "The increase in the Aboriginal and Torres Strait Islander population is not wholly explained by demographic factors. The change in Census counts between 2016 and 2021 is explained in Understanding change in counts of Aboriginal and Torres Strait Islander Australians: Census."
+      }
+    },
+    "censusCount": {
+      "releaseTitle": "Census of Population and Housing - Counts of Aboriginal and Torres Strait Islander Australians, 2021",
+      "url": "https://www.abs.gov.au/statistics/people/aboriginal-and-torres-strait-islander-peoples/census-population-and-housing-counts-aboriginal-and-torres-strait-islander-australians/2021",
+      "referencePeriod": "2021 Census",
+      "releaseDate": "31/08/2022 (page shows release date 20/06/2023 11:30am AEST)",
+      "accessDate": "2026-10-22",
+      "census2021Count": {
+        "value": "812,728 people (3.2% of total population), up from 649,171 (2.8%) in 2016, a 25.2% increase",
+        "evidenceQuote": "812,728 people identified as Aboriginal and/or Torres Strait Islander in 2021 – up from 649,171 in 2016 ... Aboriginal and Torres Strait Islander people represented 3.2% of the total population – up from 2.8% in 2016"
+      },
+      "historicalFraming": {
+        "evidenceQuote": "The 2021 Census marks 50 years since the 1971 Census – the first Census to include all Australians following the 1967 Referendum. ... In 1971, 115,953 people identified as Aboriginal and/or Torres Strait Islander in the Census. In 2021, that number grew to 812,728 people."
+      },
+      "identificationCategories": {
+        "value": "91.4% Aboriginal; 4.2% Torres Strait Islander; 4.4% both",
+        "evidenceQuote": "Of the 812,728 people who identified as being of Aboriginal and/or Torres Strait Islander origin in 2021: 91.4% identified as Aboriginal; 4.2% identified as Torres Strait Islander; 4.4% identified as Aboriginal and Torres Strait Islander."
+      },
+      "wherePeopleLived": {
+        "value": "NSW 34.2%; Queensland 29.2%; WA 10.9%",
+        "evidenceQuote": "Just over one-third (34.2%) of Aboriginal and Torres Strait Islander people lived in New South Wales in 2021. A further 29.2% lived in Queensland and 10.9% lived in Western Australia."
+      }
+    }
+  },
+  "households": {
+    "releaseTitle": "Household and Family Projections, Australia, 2021 - 2046",
+    "url": "https://www.abs.gov.au/statistics/people/population/household-and-family-projections-australia/2021-2046",
+    "referencePeriod": "2021-2046 (2021 figures are Census-based estimates)",
+    "releaseDate": "28/06/2024 11:30am AEST",
+    "accessDate": "2026-10-22",
+    "totalHouseholds": {
+      "value": "10.0 million in 2021, projected to 13.3-13.9 million in 2046",
+      "evidenceQuote": "The number of households is projected to increase from 10.0 million in 2021 to between 13.3 and 13.9 million in 2046."
+    },
+    "householdsByType2021": {
+      "value": "Family households 6,950.7 thousand; Group households 405.7 thousand; Lone person households 2,637.5 thousand; Total 9,993.9 thousand",
+      "evidenceQuote": "Family households 6,950.7 ... Group households 405.7 ... Lone person households 2,637.5 ... Total households 9,993.9"
+    },
+    "householdTypeShares2046": {
+      "value": "Family households 68%-70%; lone person 26%-28%; group 4%-5% of all households in 2046",
+      "evidenceQuote": "Family households are projected to remain the most common household type in Australia, at 68% to 70% of all household in 2046. ... Lone person households are projected to make up 26% to 28% of all Australian households in 2046. ... Group households are projected to make up 4% to 5% of all households in 2046."
+    },
+    "averageHouseholdSize": {
+      "value": "2.6 people per household in 2021; projected 2.4-2.6 in 2046; 2.57 in 2021 (international comparison), projected 2.55 in 2031",
+      "evidenceQuote": "In 2046 there are projected to be between 2.4 and 2.6 people per household on average. This is similar to the 2021 average of 2.6. ... The average household size for Australia was similar to New Zealand in 2021 (2.57 and 2.70 respectively), but this is projected to decrease in Australia (2.55 in 2031)."
+    },
+    "families": {
+      "value": "7.2 million families in 2021, projected to 9.5-9.7 million in 2046; couples with children 44% of families in 2021 (3,117.6 thousand); couples without children 39% (2,763.7 thousand); female lone parent families 13% in 2021; one parent families 1,150.1 thousand",
+      "evidenceQuote": "The number of families is projected to increase from 7.2 million to between 9.5 and 9.7 million. ... Couples with children are projected to make up 42% to 43% of all families in 2046; down slightly from 44% in 2021. ... Couples without children are projected to be the second most common family type, at 38% to 40% in 2046 (39% in 2021). ... Female lone parent families are projected to make up 13% to 14% of all families in 2046 (compared to 13% in 2021)."
+    },
+    "livingArrangements2021": {
+      "value": "48% of Australians lived in a couple family with children; one-parent families ~12% of population (2001-2021); 10% living alone; 20% of lone parents were male",
+      "evidenceQuote": "48% of Australians lived in a couple family with children. ... The proportion of people living in one parent families remained around 12% between 2001 and 2021. ... The proportion of people living alone increased from 9% in 2001 to 10% in 2021. ... In 2021 one in five (20%) lone parents were male (17% in 2001)."
+    },
+    "caveat": {
+      "evidenceQuote": "Projections are not predictions or forecasts. They are an illustration of what would happen if certain assumptions about the future living arrangements of Australia's population were to persist over the projection period."
+    }
+  },
+  "migration": {
+    "nomDefinition": {
+      "sourceTitle": "Measuring Net Overseas Migration in Australia (ABS article, 12/12/2024)",
+      "url": "https://www.abs.gov.au/articles/measuring-net-overseas-migration-australia",
+      "accessDate": "2026-10-22",
+      "definition": {
+        "evidenceQuote": "Net overseas migration (NOM) is a demographic concept which reflects the number of people added to (or subtracted from) the Australian population due to international migration."
+      },
+      "twelveSixteenMonthRule": {
+        "evidenceQuote": "Finalised NOM estimates are determined based on whether a traveller has spent 12 of the last 16 months in or out of Australia. This is known as the 12/16 month rule. ... A person who is not already resident in Australia, is added to the estimated resident population (ERP) if they travel to Australia and remain present in Australia for 12 months or more (an overseas migrant arrival). Likewise, an Australian resident is removed from the population if they leave Australia for 12 months or more (an overseas migrant departure). ... The 12 months does not have to be continuous and is measured over a 16-month period."
+      },
+      "revisionProcess": {
+        "evidenceQuote": "Preliminary NOM is revised each quarter for four quarters. As more time elapses, each revision can use more information about travellers' lengths of stay in or out of Australia as it becomes known. After the fourth revision, NOM is regarded as final as it is based on actual migration outcomes, and will then reflect any changes in travel behaviour which have occurred."
+      }
+    },
+    "nomValues": {
+      "fy2022_23AsFirstPublished": {
+        "value": "518,100 (arrivals 737,200; departures 219,100) for year ending 30 June 2023",
+        "sourceTitle": "Australia's population grows by 2.4 per cent (ABS media release, 14/12/2023)",
+        "url": "https://www.abs.gov.au/media-centre/media-releases/australias-population-grows-24-cent",
+        "referencePeriod": "Year ending 30 June 2023",
+        "evidenceQuote": "There were 737,200 overseas migration arrivals and 219,100 departures, adding 518,100 people to our population from overseas migration.",
+        "accessDate": "2026-10-22"
+      },
+      "yearEndingSep2023": {
+        "value": "548,800 (arrivals 765,900; departures 217,100) for year ending 30 September 2023",
+        "sourceTitle": "National, state and territory population, September 2023 / media release Australia's population grows by 2.5% (21/03/2024)",
+        "url": "https://www.abs.gov.au/media-centre/media-releases/australias-population-grows-25",
+        "referencePeriod": "Year ending 30 September 2023",
+        "evidenceQuote": "Annual natural increase was 111,000 and net overseas migration was 548,800. ... With 765,900 overseas migration arrivals and 217,100 departures, net overseas migration was 548,800 people during the year ending 30 September 2023.",
+        "accessDate": "2026-10-22"
+      },
+      "fy2022_23AsRevisedInCurrentRelease": {
+        "value": "538,341 (year-ended Jun-2023 row of Components of annual population change table)",
+        "sourceTitle": "National, state and territory population, March 2026",
+        "url": "https://www.abs.gov.au/statistics/people/population/national-state-and-territory-population/latest-release",
+        "referencePeriod": "Year ending 30 June 2023 (as revised in the March 2026 release)",
+        "evidenceQuote": "Jun-23 641,201 102,860 538,341",
+        "accessDate": "2026-10-22"
+      },
+      "fy2023_24": {
+        "value": "429,162 (year-ended Jun-2024 row of Components of annual population change table)",
+        "sourceTitle": "National, state and territory population, March 2026",
+        "url": "https://www.abs.gov.au/statistics/people/population/national-state-and-territory-population/latest-release",
+        "referencePeriod": "Year ending 30 June 2024",
+        "evidenceQuote": "Jun-24 534,364 105,202 429,162",
+        "accessDate": "2026-10-22"
+      },
+      "latest": {
+        "value": "292,100 (rounded; 292,137 in table) for year ending 31 March 2026",
+        "sourceTitle": "National, state and territory population, March 2026",
+        "url": "https://www.abs.gov.au/statistics/people/population/national-state-and-territory-population/latest-release",
+        "referencePeriod": "Year ending 31 March 2026",
+        "evidenceQuote": "Annual natural increase was 100,600 and net overseas migration was 292,100.",
+        "accessDate": "2026-10-22"
+      }
+    },
+    "erpVsCensusDistinction": {
+      "sourceTitle": "National, state and territory population methodology, March 2026",
+      "url": "https://www.abs.gov.au/methodologies/national-state-and-territory-population-methodology/mar-2026",
+      "accessDate": "2026-10-22",
+      "erpScope": {
+        "evidenceQuote": "Australia's estimated resident population (ERP) includes all people who usually live in Australia (regardless of nationality, citizenship or visa status), with the exception of people present for foreign consular or diplomatic reasons."
+      },
+      "censusBasis": {
+        "evidenceQuote": "The latest ERP is based on adjusted 2021 Census counts, updated with quarterly estimates of births, deaths, overseas and interstate migration. ... The 30 June ERP in a Census year is calculated by: adjusting Census counts of Australian usual residents to account for people missed or counted twice in the Census (based on Post Enumeration Survey results) ... adding usual residents temporarily overseas on Census night; adjusting for births, deaths and migration from 30 June to Census night."
+      }
+    }
+  },
+  "ageing": {
+    "releaseTitle": "Population Projections, Australia, 2022 (base) - 2071",
+    "url": "https://www.abs.gov.au/statistics/people/population/population-projections-australia/2022-base-2071",
+    "referencePeriod": "2022 (base) - 2071",
+    "releaseDate": "23/11/2023 (page shows 03/04/2024 11:30am AEDT)",
+    "accessDate": "2026-10-22",
+    "medianAge": {
+      "value": "38.5 years in 2022, projected to 43.8-47.6 years in 2071",
+      "evidenceQuote": "The median age for Australia is projected to increase from 38.5 years in 2022 to between 43.8 and 47.6 years in 2071."
+    },
+    "ageingNarrative": {
+      "evidenceQuote": "Of the changes projected to occur in Australia's population, ageing is generally considered to be the most dramatic, with significant changes to the age structure of the population. Ageing of the population is a trend which has been evident over recent decades as a result of fertility remaining below replacement level and declining mortality rates. In all series this trend is projected to continue."
+    },
+    "ageStructure": {
+      "value": "0-14 years: 18% (2022) to 13-16% (2071); 15-64 years: 65% to 59-60%; 65+: 17% to 25-27%; 85+: 2.1% to 5.2-6.4%",
+      "evidenceQuote": "The proportion of: children aged 0-14 years is projected to decline from 18% in 2022 to between 13% and 16% in 2071; the working age population aged 15-64 years is projected to decrease from 65% to between 59% and 60% in 2071; people aged 65 years and over will increase from 17% in 2022 to between 25% and 27% in 2071; people aged 85 years and over will increase from 2.1% in 2022 to between 5.2% and 6.4% in 2071"
+    },
+    "capitalCitiesVsRest2025": {
+      "value": "Capital cities median age 37.0 years vs rest of Australia 42.1 years (at 30 June 2025)",
+      "sourceTitle": "Regional population by age and sex, 2025",
+      "url": "https://www.abs.gov.au/statistics/people/population/regional-population-age-and-sex/2025",
+      "referencePeriod": "30 June 2025",
+      "releaseDate": "27/08/2026 11:30am AEST",
+      "evidenceQuote": "The median age for capital cities (37.0 years) was younger than the rest of Australia (42.1).",
+      "accessDate": "2026-10-22"
+    }
+  },
+  "notVerified": [
+    {
+      "item": "ABS statement characterising 2022-23 NOM as a 'record'",
+      "reason": "No fetched page (Mar-2026 release, Sep-2023 release, Dec-2023 / Mar-2024 media releases, NOM article) uses the word 'record' about NOM. The NOM values themselves are verified under migration.nomValues."
+    },
+    {
+      "item": "Current national median age as stated on the National, state and territory population release",
+      "reason": "Figure absent from the March 2026 release page text. Median age verified instead from Population Projections (38.5 years in 2022) and capital-city/rest split from Regional population by age and sex 2025."
+    },
+    {
+      "item": "'Lowest TFR on record' statement",
+      "reason": "Phrase absent from Births, Australia 2024 and 2023 release pages. The 2024 page states TFR 1.481, lower than 2023 (1.499) and 2014 (1.795), below replacement since 1976."
+    },
+    {
+      "item": "Households data at the URL given in the brief (household-projections-australia/latest-release)",
+      "reason": "URL returns Page not found. Verified from the actual release Household and Family Projections, Australia, 2021-2046 instead. Census 2021 household media pages could not be located by URL probing."
+    },
+    {
+      "item": "Indigenous estimates at the URL given in the brief (.../aboriginal-and-torres-strait-islander-people/...)",
+      "reason": "URL returns Page not found. Verified via .../aboriginal-and-torres-strait-islander-peoples/estimates-aboriginal-and-torres-strait-islander-australians/30-june-2021 and the Census counts page."
+    },
+    {
+      "item": "Life expectancy on the Deaths, Australia release",
+      "reason": "Deaths, Australia 2025 contains no life expectancy section; verified from the separate release Life expectancy, 2022 - 2024 (males 81.1, females 85.1 years)."
+    },
+    {
+      "item": "Births registrations for calendar 2025",
+      "reason": "Latest Births release is 2024 (next release scheduled 6/11/2026); no 2025 annual births registration figure published yet."
+    }
+  ]
+}

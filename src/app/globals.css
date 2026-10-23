@@ -1,0 +1,146 @@
+@import "tailwindcss";
+
+/*
+ * Australia Clarity — calm, low-saturation dark reading design.
+ * Design tokens are mapped onto the standard component variables so that the
+ * existing accessible component library works unchanged, while the palette
+ * below is the single source of truth for the visual identity.
+ */
+
+@theme inline {
+  --color-background: var(--background);
+  --color-surface: var(--surface);
+  --color-panel: var(--panel);
+  --color-foreground: var(--foreground);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --color-popover: var(--popover);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-destructive: var(--destructive);
+  --color-border: var(--border);
+  --color-input: var(--input);
+  --color-ring: var(--ring);
+
+  /* Australia Clarity accent tokens */
+  --color-teal: var(--teal);
+  --color-sand: var(--sand);
+  --color-dusty: var(--dusty);
+  --color-quiet: var(--quiet);
+
+  /* Typography */
+  --font-sans: var(--font-sans-stack);
+  --font-serif: var(--font-serif-stack);
+}
+
+:root {
+  color-scheme: dark;
+
+  /* Core palette (single source of truth) */
+  --background: #0f141a; /* page background */
+  --surface: #151c24; /* secondary surface (header, footer, wells) */
+  --panel: #1b2530; /* reading panels / cards */
+  --foreground: #e8eef3; /* primary text */
+  --secondary-foreground: #c7d1da; /* secondary text */
+  --quiet: #93a1ae; /* quiet text */
+  --border: #2a3642; /* borders and dividers */
+  --teal: #6fa3a8; /* muted teal — primary accent */
+  --sand: #c8b38e; /* soft sand — secondary accent */
+  --dusty: #7f93a6; /* dusty blue — tertiary accent */
+
+  /* Component variable mapping (dark-only identity) */
+  --primary: #6fa3a8;
+  --primary-foreground: #0f141a;
+  --secondary: #1b2530;
+  --secondary-foreground: #c7d1da;
+  --muted: #1b2530;
+  --muted-foreground: #93a1ae;
+  --accent: #202c39;
+  --accent-foreground: #e8eef3;
+  --card: #1b2530;
+  --card-foreground: #e8eef3;
+  --popover: #151c24;
+  --popover-foreground: #e8eef3;
+  --destructive: #c97064;
+  --border: #2a3642;
+  --input: #2a3642;
+  --ring: #c8b38e;
+
+  --radius: 0.5rem;
+
+  --font-sans-stack: ui-sans-serif, system-ui, -apple-system, "Segoe UI",
+    Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif;
+  --font-serif-stack: Charter, "Charter BT", Georgia, Cambria, "Times New Roman",
+    serif;
+}
+
+@layer base {
+  * {
+    @apply border-border outline-ring/60;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply bg-background text-foreground antialiased;
+    text-rendering: optimizeLegibility;
+  }
+
+  /* Comfortable, calm long-form reading measure */
+  .reading-measure {
+    max-width: 68ch;
+  }
+
+  ::selection {
+    background-color: #33555a;
+    color: #f4f8fa;
+  }
+
+  /* Visible, high-contrast focus for keyboard users */
+  :focus-visible {
+    outline: 2px solid var(--sand);
+    outline-offset: 2px;
+    border-radius: 2px;
+  }
+
+  /* Respect reduced motion (WCAG 2.2 / vestibular safety) */
+  @media (prefers-reduced-motion: reduce) {
+    html {
+      scroll-behavior: auto;
+    }
+    *,
+    *::before,
+    *::after {
+      animation-duration: 0.01ms !important;
+      animation-iteration-count: 1 !important;
+      transition-duration: 0.01ms !important;
+      scroll-behavior: auto !important;
+    }
+  }
+
+  /* Calm custom scrollbars for long data lists */
+  .scroll-custom {
+    scrollbar-width: thin;
+    scrollbar-color: var(--border) transparent;
+  }
+  .scroll-custom::-webkit-scrollbar {
+    height: 8px;
+    width: 8px;
+  }
+  .scroll-custom::-webkit-scrollbar-thumb {
+    background: var(--border);
+    border-radius: 4px;
+  }
+  .scroll-custom::-webkit-scrollbar-track {
+    background: transparent;
+  }
+}

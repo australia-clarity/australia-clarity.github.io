@@ -1,0 +1,84 @@
+name: Deploy to GitHub Pages
+
+# Production deployment for reviewed main-branch changes ONLY.
+# Gate D notes:
+# - This workflow must be added to main only after the owner has reviewed
+#   the release candidate and confirmed repository Pages settings.
+# - Deploy permissions (pages: write, id-token: write) are scoped to the
+#   deploy job alone; the build job stays read-only.
+# - Concurrency is limited to one deployment at a time and does not cancel
+#   in-progress deployments.
+# - A workflow being present is NOT evidence of a deployment. Deployment is
+#   only verified by observing a successful run and the live site.
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: pages-deploy
+  cancel-in-progress: false
+
+jobs:
+  build:
+    name: Build static export
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 24
+          cache: npm
+
+      - name: Install dependencies (npm ci)
+        run: npm ci
+
+      - name: Typecheck
+        run: npm run typecheck
+
+      - name: Lint
+        run: npm run lint
+
+      - name: Build static export (GitHub Pages mode)
+        run: npm run build:github-pages
+        env:
+          DEPLOY_TARGET: github-pages
+
+      - name: Assert export output exists
+        run: |
+          test -f out/index.html
+          test -f out/robots.txt
+          test -f out/sitemap.xml
+
+      - name: Configure Pages
+        uses: actions/configure-pages@v5
+
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: out/
+
+  deploy:
+    name: Deploy
+    needs: build
+    runs-on: ubuntu-latest
+    # Deployment permissions scoped to this job only.
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    timeout-minutes: 10
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
