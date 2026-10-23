@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Australia Clarity mark">
+  <!-- Restrained abstract "clarity lens": three concentric arcs converging to a
+       focal point. Generic geometry only — not a flag, seal, government or
+       party emblem. An informal similarity review found no obvious conflict;
+       this is not a trademark clearance. -->
+  <rect width="64" height="64" rx="14" fill="#0F141A"/>
+  <g fill="none" stroke-linecap="round">
+    <circle cx="32" cy="32" r="21" stroke="#2A3642" stroke-width="2.5"/>
+    <path d="M32 51 A19 19 0 0 0 51 32" stroke="#7F93A6" stroke-width="3"/>
+    <path d="M13 32 A19 19 0 0 1 32 13" stroke="#6FA3A8" stroke-width="3"/>
+    <path d="M24 40 A11.3 11.3 0 0 1 24 24" stroke="#C8B38E" stroke-width="3"/>
+  </g>
+  <circle cx="32" cy="32" r="3.2" fill="#E8EEF3"/>
+</svg>

@@ -1,0 +1,35 @@
+# Dependencies
+node_modules
+
+# Next.js build output
+/.next/
+/out/
+
+# Environment files — this project requires NONE for the static site.
+# Never commit environment files or secrets.
+.env
+.env.*
+.env.local
+.env.production*
+.env.development*
+.env.test*
+
+# Test and tooling output
+/coverage/
+playwright-report/
+test-results/
+
+# OS and editor clutter
+.DS_Store
+*.pem
+
+# Logs
+*.log
+npm-debug.log*
+
+# TypeScript
+*.tsbuildinfo
+next-env.d.ts
+
+# Private research evidence (not redistributed in this repository)
+/research/**/raw/

@@ -1,0 +1,332 @@
+import type { ChapterModule } from "@/lib/research/types";
+
+/**
+ * Chapters 02–14 — planned research slots.
+ *
+ * All fourteen chapter slots exist by design. Unpublished chapters state
+ * their scope and open questions honestly as *Planned*; they contain no
+ * findings, charts or data until research is actually completed and
+ * verified against cited sources. Chapter isolation: each module owns its
+ * own namespace; nothing here imports another chapter's private modules.
+ */
+export const plannedChapters: ChapterModule[] = [
+  {
+    id: "chapter-02",
+    number: 2,
+    slug: "economy-industry",
+    title: "Economy & Industry",
+    shortTitle: "Economy",
+    summary:
+      "Living standards, GDP, productivity, resources, mining, exports, innovation, small businesses and sectoral resilience.",
+    status: "planned",
+    version: "0.1.0",
+    scope: [
+      "GDP per capita and living standards over time",
+      "Productivity growth and its drivers",
+      "The resources and mining sector and its linkages",
+      "Export composition and exposure",
+      "Innovation, research and development, small business",
+      "Sectoral resilience and structural change",
+    ],
+    keyQuestions: [
+      "How have living standards and productivity actually performed over recent decades?",
+      "How dependent is the economy on particular sectors, and what does the evidence say about resilience?",
+      "How does Australia's productivity performance compare with similar economies?",
+    ],
+    provenance: [],
+  },
+  {
+    id: "chapter-03",
+    number: 3,
+    slug: "housing-cost-of-living",
+    title: "Housing & Cost of Living",
+    shortTitle: "Housing",
+    summary:
+      "House prices, rents, availability, homelessness, housing quality, household expenses and urban/regional variation.",
+    status: "planned",
+    version: "0.1.0",
+    scope: [
+      "House prices relative to incomes over time",
+      "Rental markets and affordability",
+      "Housing supply, construction and availability",
+      "Homelessness with careful, respectful framing",
+      "Housing quality and overcrowding",
+      "Household expenses and cost-of-living pressures by region",
+    ],
+    keyQuestions: [
+      "How have prices and rents moved relative to incomes, and for whom?",
+      "What does the evidence say about the roles of supply, demand, credit and tax settings?",
+      "How do experiences differ across cities, regions and generations?",
+    ],
+    provenance: [],
+  },
+  {
+    id: "chapter-04",
+    number: 4,
+    slug: "labour-working-conditions",
+    title: "Labour & Working Conditions",
+    shortTitle: "Labour",
+    summary:
+      "Real wages, employment quality, casual and gig work, working hours, safety, underemployment, skills shortages.",
+    status: "planned",
+    version: "0.1.0",
+    scope: [
+      "Real wage growth and distribution",
+      "Employment quality, security and underemployment",
+      "Casual, contract and gig work",
+      "Working hours, unpaid care and time use",
+      "Work health and safety",
+      "Skills shortages and workforce planning",
+    ],
+    keyQuestions: [
+      "How have real wages and job quality evolved, and for which groups?",
+      "What does the evidence show about the growth of insecure work?",
+      "How do Australia's labour market outcomes compare internationally?",
+    ],
+    provenance: [],
+  },
+  {
+    id: "chapter-05",
+    number: 5,
+    slug: "education-talent",
+    title: "Education & Talent",
+    shortTitle: "Education",
+    summary:
+      "Early childhood, schools, universities, vocational education and TAFE, inequities in access, skills, student outcomes.",
+    status: "planned",
+    version: "0.1.0",
+    scope: [
+      "Early childhood education and care access and quality",
+      "School outcomes and equity, including regional differences",
+      "Vocational education and training, and universities",
+      "Skills formation and lifelong learning",
+      "Student wellbeing",
+    ],
+    keyQuestions: [
+      "How do outcomes vary by socio-economic status, location and background?",
+      "What does the evidence say about effective investment across education stages?",
+      "How do Australian outcomes compare on like-for-like international measures?",
+    ],
+    provenance: [],
+  },
+  {
+    id: "chapter-06",
+    number: 6,
+    slug: "healthcare-wellbeing",
+    title: "Healthcare & Well-being",
+    shortTitle: "Health",
+    summary:
+      "Life expectancy, Medicare access, primary care, hospital capacity, mental health, preventive care, regional healthcare.",
+    status: "planned",
+    version: "0.1.0",
+    scope: [
+      "Life expectancy and mortality patterns, including gap analysis handled with care",
+      "Medicare, primary care access and out-of-pocket costs",
+      "Hospital capacity and elective waiting times",
+      "Mental health prevalence, services and suicide prevention (sensitive framing)",
+      "Preventive care and health risk factors",
+      "Regional, rural and remote healthcare",
+    ],
+    keyQuestions: [
+      "How does access and outcome quality vary by geography and group?",
+      "Where is the health system performing strongly and where is it under strain, on what measures?",
+      "How do Australia's health outcomes compare internationally on matched definitions?",
+    ],
+    provenance: [],
+  },
+  {
+    id: "chapter-07",
+    number: 7,
+    slug: "social-protection-inequality",
+    title: "Social Protection & Inequality",
+    shortTitle: "Protection",
+    summary:
+      "Poverty, income and wealth distribution, social services, aged care, superannuation, disability support and the NDIS.",
+    status: "planned",
+    version: "0.1.0",
+    scope: [
+      "Poverty and deprivation measures and trends",
+      "Income and wealth distribution over time",
+      "Income support adequacy and design",
+      "Aged care quality and workforce",
+      "Superannuation and retirement incomes",
+      "Disability support and the NDIS",
+    ],
+    keyQuestions: [
+      "How have poverty and inequality moved, on which definitions?",
+      "How effective are major programs in achieving their stated objectives?",
+      "What independent assessments exist, and where do interpretations diverge?",
+    ],
+    provenance: [],
+  },
+  {
+    id: "chapter-08",
+    number: 8,
+    slug: "environment-energy",
+    title: "Environment & Energy",
+    shortTitle: "Environment",
+    summary:
+      "Emissions, land, biodiversity, water, drought, climate impacts, energy security, grids and the energy transition.",
+    status: "planned",
+    version: "0.1.0",
+    scope: [
+      "Greenhouse gas emissions trends and composition",
+      "Land clearing, biodiversity and threatened species",
+      "Water resources and drought",
+      "Observed climate impacts and projections",
+      "Energy security, grid reliability and prices",
+      "The energy transition and its regional effects",
+    ],
+    keyQuestions: [
+      "What do the official inventories and environmental accounts show, and with what uncertainty?",
+      "How are energy costs, reliability and emissions evolving together?",
+      "What do independent assessments say about transition pathways and trade-offs?",
+    ],
+    provenance: [],
+  },
+  {
+    id: "chapter-09",
+    number: 9,
+    slug: "transport-urban-development",
+    title: "Transport & Urban Development",
+    shortTitle: "Transport",
+    summary:
+      "Transit, road safety, accessibility, city planning, congestion, infrastructure, regional mobility.",
+    status: "planned",
+    version: "0.1.0",
+    scope: [
+      "Public transport access and service quality",
+      "Road safety trends (Vision Zero trajectories)",
+      "Congestion and travel times",
+      "Urban form, planning and housing location",
+      "Infrastructure pipelines and delivery",
+      "Regional mobility and remoteness",
+    ],
+    keyQuestions: [
+      "How do transport outcomes vary across cities and regions?",
+      "What does the evidence show about safety, access and cost trends?",
+      "Which interventions have evaluated evidence behind them, and which remain contested?",
+    ],
+    provenance: [],
+  },
+  {
+    id: "chapter-10",
+    number: 10,
+    slug: "food-systems-agriculture",
+    title: "Food Systems & Agriculture",
+    shortTitle: "Food",
+    summary:
+      "Food affordability and security, supply chains, farm productivity, environmental sustainability and food waste.",
+    status: "planned",
+    version: "0.1.0",
+    scope: [
+      "Food affordability and food security, including household experiences",
+      "Supply chain structure and resilience",
+      "Farm productivity and profitability",
+      "Agricultural water, soil and environmental sustainability",
+      "Food waste across the chain",
+    ],
+    keyQuestions: [
+      "How has food affordability changed for different households?",
+      "How productive and sustainable is Australian agriculture on the evidence?",
+      "Where are supply chains resilient, and where are the vulnerabilities?",
+    ],
+    provenance: [],
+  },
+  {
+    id: "chapter-11",
+    number: 11,
+    slug: "technology-digital-society",
+    title: "Technology & Digital Society",
+    shortTitle: "Technology",
+    summary:
+      "Digital inclusion, AI and automation, cybersecurity, research, innovation and privacy.",
+    status: "planned",
+    version: "0.1.0",
+    scope: [
+      "Digital inclusion and access across regions and groups",
+      "AI adoption, automation and the labour market",
+      "Cybersecurity posture and incidents",
+      "Research and innovation capacity",
+      "Privacy and data protection",
+    ],
+    keyQuestions: [
+      "Who is digitally excluded, and what follows from that?",
+      "What can be said responsibly about AI and automation effects, and what remains speculative?",
+      "How does Australia's digital and research capacity compare internationally?",
+    ],
+    provenance: [],
+  },
+  {
+    id: "chapter-12",
+    number: 12,
+    slug: "public-governance-institutions",
+    title: "Public Governance & Institutions",
+    shortTitle: "Governance",
+    summary:
+      "Transparency, public-service access, federal/state/local jurisdictions, administrative outcomes, law and regulatory institutions.",
+    status: "planned",
+    version: "0.1.0",
+    scope: [
+      "Government transparency and freedom of information",
+      "Service delivery access and satisfaction",
+      "Roles across Commonwealth, state, territory and local governments",
+      "Administrative and regulatory outcomes",
+      "Trust in institutions (interpreted cautiously)",
+    ],
+    keyQuestions: [
+      "How do Australians experience public services, and how has that changed?",
+      "Where is jurisdictional complexity helping or hindering outcomes?",
+      "What do independent assessments say about institutional performance?",
+    ],
+    provenance: [],
+  },
+  {
+    id: "chapter-13",
+    number: 13,
+    slug: "social-relationships-culture",
+    title: "Social Relationships & Culture",
+    shortTitle: "Society",
+    summary:
+      "Social trust, loneliness, volunteering, civic participation, cultural diversity, arts and local communities.",
+    status: "planned",
+    version: "0.1.0",
+    scope: [
+      "Social trust and community connection",
+      "Loneliness and social isolation (sensitive framing)",
+      "Volunteering and civic participation",
+      "Cultural diversity, migration and belonging",
+      "Arts participation and local community life",
+    ],
+    keyQuestions: [
+      "How connected are Australians, and how has that changed?",
+      "What does the evidence say about participation trends and their drivers?",
+      "How do experiences differ across ages, cultures and places?",
+    ],
+    provenance: [],
+  },
+  {
+    id: "chapter-14",
+    number: 14,
+    slug: "safety-societal-resilience",
+    title: "Safety & Societal Resilience",
+    shortTitle: "Safety",
+    summary:
+      "Bushfires, floods, cyclones, droughts, disasters, crime and safety, emergency response, infrastructure and community resilience.",
+    status: "planned",
+    version: "0.1.0",
+    scope: [
+      "Natural hazard exposure and impact trends",
+      "Disaster preparedness, response and recovery",
+      "Crime and perceived safety (careful, non-alarmist framing)",
+      "Emergency services and community resilience",
+      "Infrastructure and insurance dimensions",
+    ],
+    keyQuestions: [
+      "How are hazard impacts changing, and how much is exposure versus climate?",
+      "How resilient are communities and systems on the evidence?",
+      "What do post-event inquiries independently find?",
+    ],
+    provenance: [],
+  },
+];
